@@ -1,0 +1,31 @@
+.Projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap: 40px;
+    flex-wrap: wrap;
+    color: #003f66;
+    margin: 40px 5%;
+    margin-bottom: 120px;
+}
+.Projects h1{
+    color: #1abc9c;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+}
+.Projects p {
+    width: 480px;
+    height: 310px;
+    background-color: #f39c12; /* Bright orange box color */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Shadow effect for depth */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ecf0f1;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}

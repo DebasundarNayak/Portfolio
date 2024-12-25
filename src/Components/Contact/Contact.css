@@ -1,0 +1,50 @@
+.Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: #003f66;
+    margin: 40px 5%;
+    margin-bottom: 120px;
+}
+.ContactMe h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #1abc9c;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.ContactMe p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #ecf0f1;
+}
+.ContactDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: #ecf0f1;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #ecf0f1;
+}
+
+.detail .icon {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    color: #ecf0f1;
+}
